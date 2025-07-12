@@ -1,0 +1,9 @@
+export { Header } from "./Header";
+export { BigImageOne } from "./BigImageOne";
+export { Options } from "./Options";
+export { BigImageTwo } from "./BigImageTwo";
+export { DiscoverToyotaRange } from "./DiscoverToyotaRange";
+export { WhatsAwesome } from "./WhatsAwesome";
+export { PressRelease } from "./PressRelease";
+export { More } from "./More";
+export { Footer } from "./Footer";

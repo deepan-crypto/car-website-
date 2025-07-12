@@ -1,0 +1,24 @@
+.more img {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.more {
+    margin-top: 2rem;
+}
+
+.more h1 {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    .moreImages {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .more img {
+        width: 23%;
+    }
+}

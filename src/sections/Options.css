@@ -1,0 +1,59 @@
+.Options {
+    margin-top: 2rem;
+}
+
+.MobileOptions {
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.OtherOptions {
+    display: none;
+}
+
+.MobileOptions .RowOne, .MobileOptions .RowTwo, .MobileOptions .RowThree {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.dealer img {
+    width: 4rem;
+}
+
+.testDrive img {
+    width: 7rem;
+}
+
+.price img {
+    width: 6rem; 
+}
+
+.ebook img {
+    width: 6rem;
+}
+
+.brochure img {
+    width: 8rem;
+}
+
+.exchange img {
+    width: 6rem;
+}
+
+@media screen and (min-width: 900px) {
+    .MobileOptions {
+        display: none;
+    }
+
+    .OtherOptions {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .OtherOptions div {
+        border-right: 1px solid black;
+        padding-right: 1rem;
+    }    
+}

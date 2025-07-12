@@ -1,0 +1,39 @@
+.WhatsAwesome {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.WhatsAwesome img {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.WhatsAwesome h1 {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.WhatsAwesome h3 {
+    font: 0.5rem;
+    text-align: center;
+}
+
+.WhatsAwesome button {
+    color: white;
+    background-color: red;
+}
+
+.WhatsAwesome div{
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 700px) {
+    .WhatsAwesomeDivisions {
+        display: flex;
+    }
+
+    .WhatsAwesome div {
+        border-bottom: 0px;
+    }
+}

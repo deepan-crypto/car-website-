@@ -1,0 +1,30 @@
+footer {
+    background-color: rgba(0, 0, 0, 0.759);
+    color: white;
+    margin-top: 2rem;
+}
+
+.FooterFirst {
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.FooterFirst p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 720px) {
+    .FooterFirst {
+        display: flex;
+        border-bottom: 1px solid white;
+    }
+
+    .FooterFirst p {
+        margin-right: 1rem;
+        border-right: 1px solid white;
+        padding-right: 1rem;
+    }
+}
